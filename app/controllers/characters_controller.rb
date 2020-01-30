@@ -4,9 +4,16 @@ class CharactersController < ApplicationController
   before_action :authenticate
   def index
     name = params[:name]
+    universe = params[:universe]
+    race = params[:race]
     if name != nil
       @characters = Character.search_name(name)
+    elsif universe != nil
+      @characters = Character.search_universe(universe)
+    elsif race != nil
+      @characters = Character.search_race(race)
     else
+
       @characters = Character.all
     end
     # binding.pry

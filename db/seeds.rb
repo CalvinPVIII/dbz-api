@@ -25,7 +25,7 @@ goku = Character.create!(
 gohan = Character.create!(
         name: "Gohan",
         image: "https://static1.cbrimages.com/wordpress/wp-content/uploads/2019/10/ultimate-gohan-dragon-ball-z.jpg",
-        bio: "Son Gohan (孫そん悟ご飯はん Son Gohan) is the elder son of the series' primary protagonist Goku and his wife Chi-Chi, the older brother of Goten, the husband of Videl and father to Pan. He is named after Goku's adoptive grandfather, Gohan. Unlike his father, Gohan lacks a passion for fighting (although, he does possess a strong power within him) and prefers to do so only when his loved ones are threatened. Nevertheless, Gohan fights alongside the Dragon Team in the defense of Earth for much of his life.",
+        bio: "Son Gohan is the elder son of the series' primary protagonist Goku and his wife Chi-Chi, the older brother of Goten, the husband of Videl and father to Pan. He is named after Goku's adoptive grandfather, Gohan. Unlike his father, Gohan lacks a passion for fighting (although, he does possess a strong power within him) and prefers to do so only when his loved ones are threatened. Nevertheless, Gohan fights alongside the Dragon Team in the defense of Earth for much of his life.",
         family: ['Bardock', 'Gine', 'Raditz', 'Chi-Chi', 'Goten', 'Goku', 'Videl', 'Pan', 'Mr. Satan'],
         race: "Half-Saiyan",
         universe: "7",
@@ -93,7 +93,7 @@ frieza = Character.create!(
         image: "https://static0.cbrimages.com/wordpress/wp-content/uploads/2019/10/frieza-dbz-feature-image.jpg",
         bio: "Frieza is the emperor of Universe 7, who controlled his own imperial army and is feared for his ruthlessness and power. He is the descendant of Chilled, the second son of King Cold, the younger brother of Cooler, and the father of Kuriza. Frieza is the catalyst antagonist of the entire franchise, as it is his actions that led to Goku arriving on Earth. He has made several comebacks since his fight with Goku on Namek, including multiple invasions of Earth. Recently, he has been chosen to represent Universe 7 as the tenth member of Team Universe 7 for the Tournament of Power as a replacement for Good Buu. This makes him the most recurring villain of the Dragon Ball series. After the events of the Tournament of Power, he is revived and recovers his title as Emperor of Universe 7.",
         family: ['King Cold', 'Cooler', 'Chilled'],
-        race: "Frieza Race",
+        race: "Frieza",
         universe: "7",
         height: 158,
         weight: 48,
@@ -126,7 +126,7 @@ beerus = Character.create!(
         image: "http://img.improve-yourmemory.com/pic/7c609919d570b23113c41ad09e685056-0.jpg",
         bio: "Beerus is the God of Destruction of Universe 7. He is accompanied by his martial arts teacher and attendant, Whis. Beerus' twin brother is Champa, the God of Destruction of Universe 6. Beerus is the main antagonist of the Dragon Ball Z: Battle of Gods film and the God of Destruction Beerus Saga but becomes a supporting character in later sagas.",
         family: ['Champa'],
-        race: "Beerus Race",
+        race: "Beerus",
         universe: "7",
         height: 170,
         weight: 65,
@@ -135,7 +135,7 @@ beerus = Character.create!(
 whis = Character.create!(
         name: "Whis",
         image: "https://vignette.wikia.nocookie.net/teamfourstar/images/a/ac/5378977-2386078157-latest.png/revision/latest?cb=20170226205135",
-        bio: "Whis is the angelic attendant of Universe 7's God of Destruction, Beerus,[5] as well as his martial arts teacher. Along with his siblings, he is a child of the Grand Minister. Like all attendants, he is bound to the service of his deity and usually does not leave Beerus unaccompanied.",
+        bio: "Whis is the angelic attendant of Universe 7's God of Destruction, Beerus, as well as his martial arts teacher. Along with his siblings, he is a child of the Grand Minister. Like all attendants, he is bound to the service of his deity and usually does not leave Beerus unaccompanied.",
         family: ['Grand Minister', 'Vados', 'Awamo', 'Sour', 'Camparri', 'Cognac', 'Cukatail', 'Korn', 'Mojito', 'Kusu', 'Marcarita', 'Martinu', 'Merus'],
         race: "Angel",
         universe: "7",
@@ -258,7 +258,7 @@ ginyu = Character.create!(
         image: "https://i.ytimg.com/vi/93tEchktoyA/maxresdefault.jpg",
         bio: "Ginyu is the strict but loyal captain of the elite mercenary platoon, the eponymous Ginyu Force. Ginyu is a honorable, yet merciless fighter who constantly strikes poses. He possesses the ability to swap bodies.",
         family: [''],
-        race: "Ginyu Race",
+        race: "Ginyu",
         universe: "7",
         height: 200,
         weight: 150,
@@ -269,7 +269,7 @@ jiren = Character.create!(
         image: "https://cdn.collider.com/wp-content/uploads/2018/02/dragon-ball-super-jiren.png",
         bio: "Jiren, also known as Jiren The Gray, is a member of the Pride Troopers. He served as the main fighting antagonist in the Universe Survival Saga and as a major contestant in the Tournament of Power. An extraordinary powerful being, Jiren is considered to be one of the strongest mortals in all of the multiverse, outclassing even Destroyer Gods.",
         family: [''],
-        race: "Jiren Race",
+        race: "Jiren",
         universe: "11",
         height: 182,
         weight: 170,
@@ -287,5 +287,85 @@ black = Character.create!(
         forms: ['Super Saiyan Rosé'],
       )
 
+zamasu = Character.create!(
+        name: "Zamasu",
+        image: "https://medias.spotern.com/spots/w640/69/69493-1532336916.jpg",
+        bio: "Zamasu was formerly the North Kai of Universe 10, and was a witness of the countless wars done by humans. He was chosen by Gowasu to be his successor, based on his battle talent. Zamasu was happy about it, and promised to do his best for universal peace.",
+        family: ['Goku Black', 'Gowasu'],
+        race: "Core Person",
+        universe: "10",
+        height: 175,
+        weight: 62,
+        forms: [''],
+      )
+
+toppo = Character.create!(
+        name: "Toppo",
+        image: "https://comicvine1.cbsistatic.com/uploads/scale_medium/11131/111312232/6044924-toppo2.png",
+        bio: "Toppo is a tall and burly alien humanoid. He has tan colored skin, yellow eyes with dark lines under them, and a large white mustache that covers his mouth. He also sports two perpetually prominent veins on his head. While sporting a well-muscled frame apart from his portly midsection, his overall body-type is noticeably disproportionate: he has comparatively short and skinny legs while his arms very long with massive hands bigger than his entire head. He sports a red and black spandex suit, which appears to be part of his team's attire.",
+        family: ['Dyspo', 'Jiren'],
+        race: "Toppo",
+        universe: "11",
+        height: 205,
+        weight: 113,
+        forms: ['God of Destruction'],
+      )
+
+dyspo = Character.create!(
+        name: "Dyspo",
+        image: "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/ea914385-70d7-476d-aa3b-37d0c449c464/dbaqm0s-5b76550e-32a6-4014-896a-7e71e38f1761.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2VhOTE0Mzg1LTcwZDctNDc2ZC1hYTNiLTM3ZDBjNDQ5YzQ2NFwvZGJhcW0wcy01Yjc2NTUwZS0zMmE2LTQwMTQtODk2YS03ZTcxZTM4ZjE3NjEuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.soSoarOMDEifa0U3si-DiClFKUSQlPN-IDWrH9rwGPo",
+        bio: "Dyspo is a member and Blitz Captain of the Pride Troopers, that participates in the Tournament of Power. Dyspo is arrogant, reckless, and has a strong sense of justice. Dyspo is the charge/vanguard commander of the Pride Troopers.",
+        family: ['Toppo', 'Jiren'],
+        race: "Dyspo",
+        universe: "11",
+        height: 187,
+        weight: 56,
+        forms: [''],
+      )
+hit = Character.create!(
+        name: "Hit",
+        image: "https://img1.ak.crunchyroll.com/i/spire2-tmb/39b4486e1f4f55c3856ecdaef86076821503190331_main.jpg",
+        bio: "Hit, renowned as 'Never-Miss Hit', is the legendary assassin of Universe 6. In addition, he also later on becomes the leader for Team Universe 6.",
+        family: [''],
+        race: "Hit",
+        universe: "6",
+        height: 193,
+        weight: 62,
+        forms: [''],
+      )
+cabba = Character.create!(
+        name: "Cabba",
+        image: "https://i.ytimg.com/vi/7ghdL015w5A/maxresdefault.jpg",
+        bio: "Cabba is a Saiyan from Universe 6. He is a member of Team Universe 6 and is one of its strongest fighters, and a member of the Sadala Defense Forces.",
+        family: ['Renso'],
+        race: "Saiyan",
+        universe: "6",
+        height: 144,
+        weight: 45,
+        forms: ['Super Saiyan', 'Super Saiyan 2'],
+      )
+
+vegito = Character.create!(
+        name: "Vegito",
+        image: "https://m.diariodesevilla.es/2017/08/15/gente/Bseries-dibujos-Bque-marcaron-ninos_1163594123_71707615_1365x1024.jpg",
+        bio: "Vegito is the result of the fusion between Goku and Vegeta by the use of the Potara Earrings. Vegito is the most powerful character in the original Dragon Ball manga. His Fusion Dance counterpart is Gogeta.",
+        family: ['Goku', 'Vegeta', 'Gogeta'],
+        race: "Saiyan",
+        universe: "7",
+        height: 175,
+        weight: 114,
+        forms: ['Super Saiyan', 'Super Saiyan Blue'],
+      )
+gogeta = Character.create!(
+        name: "Gogeta",
+        image: "https://pbs.twimg.com/media/DjcweEEW4AA4S4L.jpg",
+        bio: "Gogeta is the resulting fusion of Goku and Vegeta, when they perform the Fusion Dance properly. His voice is a dual voice containing both Goku's and Vegeta's voices. Like his Potara counterpart, Vegito, he is regarded as one of the most powerful characters in the whole Dragon Ball franchise.",
+        family: ['Goku', 'Vegeta', 'Vegito'],
+        race: "Saiyan",
+        universe: "7",
+        height: 175,
+        weight: 114,
+        forms: ['Super Saiyan', 'Super Saiyan Blue'],
+      )
 
 puts 'success!'
