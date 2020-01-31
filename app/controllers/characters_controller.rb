@@ -1,7 +1,7 @@
 class CharactersController < ApplicationController
   include ActionController::HttpAuthentication::Token::ControllerMethods
   TOKEN = 'secret'
-  before_action :authenticate
+  before_action :authenticate, except: [:index, :show]
   def index
     name = params[:name]
     universe = params[:universe]

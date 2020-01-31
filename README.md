@@ -1,24 +1,30 @@
-# README
+## Dragon Ball Z API
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+#### _An API featuring everyones favorite characters from the Dragon Ball universe_
 
-Things you may want to cover:
+#### By _Calvin Will & Ali Amirhamzeh_
 
-* Ruby version
+## How To Use
 
-* System dependencies
+For get requests no authentication required.
 
-* Configuration
+/characters will give you a list of all characters
 
-* Database creation
+adding a name parameter will return characters that match the given parameter.
 
-* Database initialization
+Example: /characters?name=goku
+will return both Goku and Goku Black
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
+adding a universe parameter will return characters from the given universe.
 
-* Deployment instructions
+Example: /characters?universe=11
+will return Jiren and Toppo among others
 
-* ...
+adding a race parameter will return characters from the given race.
+
+Example: /characters?race=human
+will return Tien and Krillin among others
+
+
+Most information is pulled from the Dragon Ball wikia page
