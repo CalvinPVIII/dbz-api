@@ -416,5 +416,17 @@ gogeta = Character.create!(
         weight: 114,
         forms: ['Super Saiyan', 'Super Saiyan Blue'],
       )
+bardock = Character.create!(
+        name: "Bardock",
+        image: "https://media.comicbook.com/2018/10/bardock-dragon-ball-super-broly-1137419.jpeg",
+        bio: "Bardock is a low-class Saiyan warrior, the husband of Gine, and the father of Raditz and Goku. Bardock's childhood until his early years in adulthood is unknown, but he is shown to lead his own squad into battle, and they are very successful in accomplishing their assignments. He is an adept fighter and a devoted Saiyan Army soldier under Frieza's Force until he realizes his tyrannical boss plans to annihilate the Saiyan race.",
+        family: ['Gine', 'Raditz', 'Chi-Chi', 'Gohan', 'Goten', 'Goku'],
+        race: "Saiyan",
+        universe: "7",
+        height: 178,
+        weight: 87,
+        forms: ['Great Ape', 'Super Saiyan'],
+      )
+
 
 puts 'success!'
