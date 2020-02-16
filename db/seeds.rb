@@ -299,6 +299,18 @@ zamasu = Character.create!(
         forms: [''],
       )
 
+mergedZamasu = Character.create!(
+        name: "Merged Zamasu",
+        image: "https://news.toyark.com/wp-content/uploads/sites/4/2019/03/fused-zamasu.jpg",
+        bio: "Fused Zamasu, is a fusion born of the union between Goku Black (the original present Zamasu in the original present Goku's body) and Future Zamasu through the Potara earrings",
+        family: ['Goku Black', 'Gowasu',' Zamasu'],
+        race: "Half Core Person, Half Saiyan",
+        universe: "10",
+        height: 183,
+        weight: 62,
+        forms: ['Infinite Zamsu'],
+      )
+
 toppo = Character.create!(
         name: "Toppo",
         image: "https://comicvine1.cbsistatic.com/uploads/scale_medium/11131/111312232/6044924-toppo2.png",
@@ -344,6 +356,43 @@ cabba = Character.create!(
         weight: 45,
         forms: ['Super Saiyan', 'Super Saiyan 2'],
       )
+
+caulifla = Character.create!(
+        name: "Caulfila",
+        image: "https://comicvine1.cbsistatic.com/uploads/scale_medium/11133/111336082/6834930-cauliflo.png",
+        bio: "Caulifla is a Saiyan from Universe 6 and a member of Team Universe 6 who participates in Zeno's Tournament of Power. She is the the leader of a gang of Saiyan criminals.",
+        family: ['Renso', 'Kale'],
+        race: "Saiyan",
+        universe: "6",
+        height: 160,
+        weight: 56,
+        forms: ['Super Saiyan', 'Super Saiyan Grade 2','Super Saiyan Grade 3','Super Saiyan 2'],
+      )
+
+kale = Character.create!(
+        name: "Kale",
+        image: "https://www.everyeye.it/public/immagini/14042019/dragon-ball-super_notizia-5-4-3-2.jpg",
+        bio: "Kale is a Saiyan from Universe 6 and a member of Team Universe 6. Kale is Caulifla's best friend, sister-figure, and protégé. She is the latest Legendary Saiyan of Universe 6, a demon warrior who appears once every 1,000 years",
+        family: ['Caulifla'],
+        race: "Saiyan",
+        universe: "6",
+        height: 152,
+        weight: 54,
+        forms: ['Legendary Super Saiyan', 'Super Saiyan Berserk'],
+      )
+
+kefla = Character.create!(
+        name: "Kefla",
+        image: "https://vignette.wikia.nocookie.net/dragonball/images/b/b2/TLSSJKefla.png/revision/latest?cb=20171105022538",
+        bio: "Kefla is the Potara fusion of Caulifla and Kale",
+        family: ['Caulifla', 'Kale'],
+        race: "Saiyan",
+        universe: "6",
+        height: 156,
+        weight: 55,
+        forms: ['Super Saiyan', 'Super Saiyan 2'],
+      )
+
 
 vegito = Character.create!(
         name: "Vegito",
